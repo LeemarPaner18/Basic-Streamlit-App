@@ -1,9 +1,8 @@
 import streamlit as st
 
-# Set the title of the app
 st.title("My Autobiography and Portfolio")
 
-# Add a sidebar with navigation options
+# Sidebar navigation
 st.sidebar.title("Navigation")
 page = st.sidebar.radio("Go to", ["Autobiography", "Portfolio", "Contact"])
 
